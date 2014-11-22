@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*Documento CSS */
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background: #333333;
+	width: 90%;
+	margin: 0px auto;
+}
+
+main {
+	margin: 30px auto;
+	height: 90%;
+}
+
+header{
+	color: #eee;
+}
+
+section {
+	margin-top: 50px;
+	margin-bottom: 120px;
+	backgroud:#fff;
+	height: 75%;
+}
+
+.media-list li {
+	margin-top: 20px;
+}
+
+.media-body {
+ padding-left:10px;
+}
+
+.media-foot {
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+li.media {
+	padding:20px;
+	background: #eee;
+}
+
+.btn-detail {
+  width: 50px;
+  height: 50px;
+  line-height: 50px; /* adjust line height to align vertically*/
+  padding:0;
+  border-radius: 50%;
+  font-size: 1.2em;
+}
+
+footer {
+	border-top: #eee solid 1px;
+	position: fixed;
+	bottom: -80px;
+	left:0;
+	color: #eee;
+}
+
+.welcome-box {
+	margin-top: 80px;
+	height: 50%;
+}
+
+#chat-box, #user-box {
+	height: 100%;
+	background: #fff;
+	overflow-y: auto;
+}
